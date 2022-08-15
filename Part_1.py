@@ -12,7 +12,7 @@ class Item:
         self.price = price
         self.quantity = quantity
 
-    def calculateTotalPrice(self):
+    def calculateTotalPrice(self):#? we dont need to pass arguments here, cause they are already attributes in this class level
         return (self.price * self.quantity)
 
 
